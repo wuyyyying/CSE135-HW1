@@ -1,0 +1,35 @@
+1. Employ password protection
+   • Edit conf files for both Apache and Nginx
+   • Store the username and encrypted password pair in the file .htpasswd
+2. Have a static team page that indicates your name and/or team members, email, etc
+   index.html link: https://github.com/wuyyyying/CSE135-HW1/blob/master/index.html
+3. Use custom error pages
+   • Edit conf files for both Apache and Nginx
+   • custom_404.html link: https://github.com/wuyyyying/CSE135-HW1/blob/master/custom_404.html
+   • custom_403.html link: https://github.com/wuyyyying/CSE135-HW1/blob/master/custom_403.html
+4. Have a favicon
+   Please refer to file index.html
+5. Have a robots.txt file
+   • A minimal format that blocks the robot to visit any of the page
+   • robots.txt link: https://github.com/wuyyyying/CSE135-HW1/blob/master/robots.txt
+   • The "User-agent: *" means this section applies to all robots. The "Disallow: /" tells the robot that it should not visit any pages on the site. 
+6. Deploy from Github
+   • create an empty directory and then run the following command:
+       git init
+       git remote add live ssh://root@157.230.57.144/var/repo/site.git
+       git pull live master
+   • then we can change the files locally and push the changes to the server by running the command
+       git push live master 
+7. Log Properly
+   • We use GoAccess to analyze our access.log for both Apache and Nginx
+   • The detailed command is 
+	goaccess access.log -o report.html --log-format=COMBINED
+   • report.html is the statistics report generated based on access.log file
+   • You can find the link on the CSE135-HW1.pdf
+8. Compress Textual Content
+   Please refer to CSE135-HW1.pdf Reports section
+9. Obscure server identity
+   Please refer to CSE135-HW1.pdf Reports section
+10. Run PHP
+11. Deliver CLean URLs
+
