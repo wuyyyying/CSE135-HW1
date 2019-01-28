@@ -1,5 +1,7 @@
 1. Employ password protection
    • Edit conf files for both Apache and Nginx
+   • link to Apache conf file: https://github.com/wuyyyying/CSE135-HW1/blob/master/000-default.conf
+   • link to Ngnix conf file: https://github.com/wuyyyying/CSE135-HW1/blob/master/default
    • Store the username and encrypted password pair in the file .htpasswd
 2. Have a static team page that indicates your name and/or team members, email, etc
    index.html link: https://github.com/wuyyyying/CSE135-HW1/blob/master/index.html
