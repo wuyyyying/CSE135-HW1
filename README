@@ -33,5 +33,8 @@
 9. Obscure server identity
    Please refer to CSE135-HW1.pdf Reports section
 10. Run PHP
+   append /info.php at the end of url to see result
 11. Deliver CLean URLs
+   We manage to hide extension(.html and .php) and redirect the page to an existing file matching the prefix.
+   Simply type in the page user desires to see and you can see result.(ex http://157.230.57.144:8081/index)
 
